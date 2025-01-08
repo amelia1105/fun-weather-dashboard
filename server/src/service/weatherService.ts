@@ -97,7 +97,7 @@ class WeatherService {
     }
   }
 
-  // TODO: Build parseCurrentWeather method
+  // parseCurrentWeather method
   private parseCurrentWeather(response: any) {
     const currentWeather = response.data[0];
     const { city_name, datetime, temp, wind_spd, rh, weather } = currentWeather;
