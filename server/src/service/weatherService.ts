@@ -1,4 +1,3 @@
-import fs from 'node:fs/promises';
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -81,8 +80,9 @@ class WeatherService {
 
   // fetchAndDestructureLocationData method
   private async fetchAndDestructureLocationData() {
-    const locationData = await this.fetchLocationData(this.city);
-    return this.destructureLocationData(locationData);
+    return await this.fetchLocationData(this.buildGeocodeQuery()).then((locationData) =>
+      this.destructureLocationData(locationData)
+    );
   }
 
   // fetchWeatherData method
@@ -132,6 +132,7 @@ class WeatherService {
     } catch (error) {
       console.error(error);
       return error;
+    }
   }
 }
 

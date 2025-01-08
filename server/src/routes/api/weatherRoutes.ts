@@ -18,17 +18,14 @@ router.post('/', (req: Request, res: Response) => {
   } catch (error) { // catch any errors
     res.status(500).json(error);
   }
-
-  // save city to search history
-  HistoryService.addCity(cityName);
 });
 
 // GET search history
-router.get('/history', async (req: Request, res: Response) => {
+router.get('/history', async (_req: Request, res: Response) => {
   try {
     const savedCities = await HistoryService.getCities();
     res.json(savedCities);
-    } catch(error) => {
+    } catch (error) {
       console.log(error);
       res.status(500).json(error);
   }
