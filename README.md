@@ -17,13 +17,14 @@ This weather dashboard application will show the weather forecast for a city whe
 
 ## Link to Application
 
-(https://fun-weather-dashboard.onrender.com)
+https://fun-weather-dashboard.onrender.com
 
 ## Installation
 
-The application can be used in the web browser. Use the link above to access the page.
+The application can be used in the web browser. Use the link above to access the page in any browser. No installation is required.
 
-To install the application on your local device for testing, editing, or viewing, perform the following steps:
+
+To install the application on your local device for testing, editing, or viewing, perform the following steps. You will need an API key from https://api.openweathermap.org, as it is not visible in the repo.
 
 1. In the terminal, navigate to where you would like the repo to be stored on your device.
 
@@ -47,9 +48,22 @@ To install the application on your local device for testing, editing, or viewing
 
 ## Usage
 
-The application can be used in the web browser. Use the link above to access the page.
+The application can be used in the web browser. Use the link above to access the page in any browser.
 
-To start the server in the terminal for testing or other purposes, perform the following steps:
+1. The link will take you to the website shown in the screenshot below.
+
+    ![weather dashboard main page](./assets/main-page.png)
+
+2. Type in a city and hit search, or click a city in your search history to see the weather data for that location. Here, I'm showing the weather data for Charlotte.
+
+    ![webpage showing the weather dashboard with weather data for Charlotte](./assets/charlotte-weather.png)
+
+3. To delete a city, click the trash can icon beside the city. Here, I've deleted San Diego from the search history.
+
+    ![San Diego deleted from search history on weather dashboard](./assets/delete-sd.png)
+
+
+To start the server in the terminal for testing or other purposes, perform the following steps. You will need an API key from https://api.openweathermap.org, as it is not visible in the repo.
 
 1. After the installation steps have been completed, build and start the server with the following command. Be sure that you are in the fun-weather-dashboard directory.
 
@@ -59,7 +73,7 @@ To start the server in the terminal for testing or other purposes, perform the f
 
 2. You should see that the server is running on port 3001. You can now test the HTTP requests using Insomnia or any other application designed to test APIs.
 
-3. For example, in Insomnia, create a new GET request using the plus sign, and insert this link at the top: (http://localhost:3001). Hit 'Send'. This will process the application and allow you to interact with it.
+3. For example, in Insomnia, create a new GET request using the plus sign, and insert this link at the top: http://localhost:3001. Hit 'Send'. This will process the application and allow you to interact with it.
 
     ![testing the program in Insomnia](./assets/insomnia.png)
 
