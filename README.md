@@ -17,11 +17,11 @@ This weather dashboard application will show the weather forecast for a city whe
 
 ## Link to Application
 
-link goes here
+(https://fun-weather-dashboard.onrender.com)
 
 ## Installation
 
-The application can be used in the web browser and can be accessed through this link:
+The application can be used in the web browser. Use the link above to access the page.
 
 To install the application on your local device for testing, editing, or viewing, perform the following steps:
 
@@ -47,25 +47,19 @@ To install the application on your local device for testing, editing, or viewing
 
 ## Usage
 
-The application can be used in the web browser and can be accessed through this link:
+The application can be used in the web browser. Use the link above to access the page.
 
 To start the server in the terminal for testing or other purposes, perform the following steps:
 
-1. After the installation steps have been completed, build the program. Be sure that you are in the fun-weather-dashboard directory.
-
-    ```sh
-    npm run build
-    ```
-
-2. Start the server:
+1. After the installation steps have been completed, build and start the server with the following command. Be sure that you are in the fun-weather-dashboard directory.
 
     ```sh
     npm run start
     ```
 
-3. You should see that the server is running on port 3001. You can now test the HTTP requests using Insomnia or any other application designed to test APIs.
+2. You should see that the server is running on port 3001. You can now test the HTTP requests using Insomnia or any other application designed to test APIs.
 
-4. For example, in Insomnia, create a new GET request using the plus sign, and insert this link at the top: (http://localhost:3001). Hit 'Send'. This will process the application and allow you to interact with it.
+3. For example, in Insomnia, create a new GET request using the plus sign, and insert this link at the top: (http://localhost:3001). Hit 'Send'. This will process the application and allow you to interact with it.
 
     ![testing the program in Insomnia](./assets/insomnia.png)
 
