@@ -66,7 +66,7 @@ class WeatherService {
   // destructureLocationData method
   private destructureLocationData(cityData: Coordinates): Coordinates {
     if (!cityData) {
-      window.alert('City cannot be found, please try again.');
+      throw new Error('City cannot be found, please try again.');
     }
     
     const { name, lat, lon, country, state } = cityData;
