@@ -67,6 +67,8 @@ To start the server in the terminal for testing or other purposes, perform the f
 
 4. For example, in Insomnia, create a new GET request using the plus sign, and insert this link at the top: (http://localhost:3001). Hit 'Send'. This will process the application and allow you to interact with it.
 
+    ![testing the program in Insomnia](./assets/insomnia.png)
+
 ## Credits
 
 Starter code was sourced from Rutgers University Coding Bootcamp section RUT-VIRT-FSF-PT-10-2024-U-LOLC-MWTH > Assignments > Module 9 Challenge > starter code (https://bootcampspot.instructure.com/courses/6369/assignments/90397?module_item_id=1341108). The starter code includes all folders and files except for the searchHistory.json and README.md files and the 'assets' folder. No changes or contributions were made to the 'client' folder, except for an addition to the .gitignore file. I made contributions to files in the 'server' folder, including weatherRoutes.ts, htmlRoutes.ts, historyService.ts, weatherService.ts, and server.ts. Additionally, I used GitHub Copilot and ChatGPT for assistance with troubleshooting, particularly in the weatherService.ts file.
