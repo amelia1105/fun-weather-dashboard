@@ -6,7 +6,7 @@
 
 This weather dashboard application will show the weather forecast for a city when a user inputs the name of that city. This could be helpful for someone who is planning a trip to a new city, for example. This assignment is part of the Module 9 Challenge for the Rutgers University Coding Bootcamp. The purpose of this project is to design the back end of an application, connect the back end and front end, test the application using Insomnia, and deploy the application to Render. This project incorporates external APIs, modularization, HTTP request methods, Express, Vite, async/await methods, and middleware. Through this project, I learned more about how to use APIs to retrieve data, like weather information. I also improved my ability to modularize my code in order to make it more digestible and easier to troubleshoot.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Link to Application](#link-to-application)
 - [Installation](#installation)
@@ -87,7 +87,7 @@ GitHub: amelia1105 (https://github.com/amelia1105)
 
 MIT License
 
-Copyright (c) 2024 Amelia Bellanger
+Copyright (c) 2024 Amelia Alvarado
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -109,4 +109,4 @@ SOFTWARE.
 
 ## Questions
 
-For any questions about this project, please contact me by email: aebellanger@yahoo.com
+For any questions about this project, please contact me by email: ameliabalvarado@gmail.com
